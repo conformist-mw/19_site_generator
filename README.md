@@ -8,10 +8,10 @@
 
 Традиционно для запуска нужно установить необходимые зависимости, которые перечислены в файле requirements.txt, например так:
 
-:::python
+```python
 pip3 install -r requirements.txt
-:::
+```
 И после этого:
-:::bash
+```bash
 python3 site_generator.py config.json
-:::
+```
