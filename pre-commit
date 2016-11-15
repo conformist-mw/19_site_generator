@@ -1,6 +1,6 @@
-#!/bin/sh
-if `git status -s` > /dev/null; then
+#!/bin/bash
+if [[ `git status -s` > /dev/null ]]; then
 	python3 site_generate.py config.json
-	echo 'Done!'
+	git add site
 fi
 
